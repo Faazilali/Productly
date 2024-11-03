@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:7rem;
+    margin-top:3rem;
+}
+
+.img{
+    display:none;
+}
+
+.signup .content{
+    margin-top:3rem;
+}
+
+.signup .content h1{
+    text-align: center;
+    color:#d84528;
+}
+
+.signup .content form{
+    margin-top:2rem;
+}
+
+.text{
+    color:#ffa500;
+}
+
+input{
+    font-size:1.2rem;
+    padding:.5rem;
+    margin-top:.5rem;
+    border-radius: .5rem;
+    border: 1px solid #888888;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffa500;
+    box-shadow: 0 0 5px #d84528(76, 175, 80, 0.3);
+}
+
+.signup-button{
+    padding:.8rem;
+    font-size:1rem;
+    margin-top:1rem;
+    background-color: #ffa500;
+    border: transparent;
+    color:#fff;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.signup-button:hover:hover{
+    background-color:#d84528;
+    transition: .5s ease;
+}
+
+form p{
+    margin-top:2rem;
+    color:#ffa500;
+    font-size: 1rem;
+}
+
+form p a{
+    color:#d84528;
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+
+
+@media only screen and (min-width:770px){
+    .signup .img{
+        display:block;
+        margin-top:3rem;
+    }
+
+    .img img{
+        width:30rem;
+    }
+
+    .signup .content h1{
+        text-align: left;
+    }
+}

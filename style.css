@@ -1,0 +1,621 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:.2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    margin-top:2rem;
+    margin-left: 1rem;
+    display:flex;
+    
+}
+
+.header img{
+    width:5rem;
+}
+
+.header .login{
+    display:none;
+}
+
+.header .signup{
+    position:absolute;
+    right:.2rem;
+}
+
+.header .signup button{
+    padding:.8rem;
+    font-size:1.2rem;
+    background-color: #ffa500;
+    border: transparent;
+    color:#fff;
+    border-radius: .5rem;
+    cursor: pointer;
+    
+}
+
+.header .signup button:hover{
+    background-color:#d84528;
+    transition: .5s ease;
+}
+
+.content1{
+    margin-top:7rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.content1 .content h1{
+    font-size:3.2rem;
+    line-height: 3.2rem;
+}
+
+.content1 .content p{
+    font-size:1.2rem;
+    margin-top: 1rem;
+    color:#888888;
+}
+
+.content1 .content button{
+    padding:.8rem;
+    font-size:1.5rem;
+    margin-top: 2rem;
+    background-color: #ffa500;
+    border: transparent;
+    color:#fff;
+    border-radius: .5rem;
+    width:12rem;
+    cursor: pointer;
+}
+
+.content1 .content button:hover{
+    background-color:#d84528;
+    transition: .5s ease;
+}
+
+.content1 .img1{
+    margin-top:2rem;
+    text-align: center;
+}
+
+.content1 .img1 img{
+    width:20rem;
+    width:100%;
+}
+
+.content2{
+    margin-top:7rem;
+    margin-left: 1rem;
+}
+
+.content2 h1{
+    font-size:3.2rem;
+    line-height: 3.2rem;
+    text-align: center;
+}
+
+.content2 .icon1{
+    margin-top:2rem;
+}
+
+.content2 .icon1 .p1{
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.content2 .icon1 .p2{
+    font-size:1.2rem;
+    color:#888888;
+}
+
+.content2 .icon2{
+    margin-top:2rem;
+}
+
+.content2 .icon2 .p1{
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.content2 .icon2 .p2{
+    font-size:1.2rem;
+    color:#888888;
+}
+
+.content2 .icon3{
+    margin-top:2rem;
+}
+
+.content2 .icon3 .p1{
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.content2 .icon3 .p2{
+    font-size:1.2rem;
+    color:#888888;
+}
+
+.content2 .icon4{
+    margin-top:2rem;
+}
+
+.content2 .icon4 .p1{
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.content2 .icon4 .p2{
+    font-size:1.2rem;
+    color:#888888;
+}
+
+.content2 .signup{
+    text-align: center;
+}
+
+.content2 .signup button{
+    padding:.8rem;
+    font-size:1.2rem;
+    margin-top: 2rem;
+    background-color: #ffa500;
+    border: transparent;
+    color:#fff;
+    border-radius: .5rem;
+    width:12rem;
+    cursor: pointer;
+}
+
+.content2 .signup button:hover{
+    background-color:#d84528;
+    transition: .5s ease;
+}
+
+.content3{
+    margin-top:7rem;
+    margin-left: 1rem;
+}
+
+.content3 .content h1{
+    font-size:3.2rem;
+    line-height: 3.2rem;
+}
+
+.content3 .content .p1{
+    color:#888888;
+    font-size:1.2rem;
+}
+
+.content3 .content .p2{
+    margin-top:1rem;
+    color:#888888;
+    font-size:1.2rem;
+}
+
+.content3 .content .p3{
+    margin-top:2rem;
+    color:#888888;
+}
+
+.content3 .content .p3 span{
+    font-size:1.5rem;
+    font-weight: 500;
+    color:black;
+}
+
+.content3 .content .p4{
+    margin-top:2rem;
+    color:#888888;
+}
+
+.content3 .content .p4 span{
+    font-size:1.5rem;
+    font-weight: 500;
+    color:black;
+}
+
+.content3 .content .p5{
+    margin-top:2rem;
+    color:#888888;
+}
+
+.content3 .content .p5 span{
+    font-size:1.5rem;
+    font-weight: 500;
+    color:black;
+}
+
+.content3 .img2{
+    margin-top:2rem;
+    text-align: center;
+}
+
+.content3 .img2 img{
+    width:20rem;
+    width:100%;
+}
+
+.content4{
+    margin-top:7rem;
+    margin-left: 1rem;
+}
+
+.content4 .img3{
+    text-align: center;
+}
+
+.content4 .img3 img{
+    width:20rem;
+    width:100%;
+}
+
+.content4 .content{
+    margin-top:2rem;
+}
+
+.content4 .content .p1{
+    font-size:1.2rem;
+    color:#888888;
+}
+
+.content4 .content .p2{
+    font-size:1.2rem;
+    color:#888888;
+    margin-top:1rem;
+}
+
+.content4 .content h1{
+    font-size:3.2rem;
+    line-height: 3.2rem;
+}
+
+.pnt1{
+    margin-top:2rem;
+    display:flex;
+    gap:1rem;
+}
+
+.pnt1 img{
+    width:2rem;
+    height:2rem;
+}
+
+.pnt1 p{
+    color:#888888;
+    font-size:1.2rem;
+}
+
+.content5{
+    margin-top:7rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.content5 h1{
+    font-size:2.3rem;
+}
+
+.content5 p{
+    margin-top:2rem;
+    font-size:1.2rem;
+    color:#48cae4;
+}
+
+.content5 button{
+    padding:.8rem;
+    font-size:1.2rem;
+    margin-top: 2rem;
+    background-color: #ffa500;
+    border: transparent;
+    color:#fff;
+    border-radius: .5rem;
+    width:12rem;
+    cursor: pointer;
+}
+
+.content5 button:hover{
+    background-color:#d84528;
+    transition: .5s ease;
+}
+
+.content6{
+    margin-top:7rem;
+    margin-left: 1rem;
+}
+
+.content6 h1{
+    font-size:3.2rem;
+    line-height: 3.2rem;
+}
+
+.content6 .p1{
+    color:#888888;
+    margin-top:1rem;
+    font-size: 1.2rem;
+}
+
+.content6 .blk1{
+    margin-top:2.5rem;
+}
+
+.content6 .blk1 p{
+    color:#888888;
+    font-size:1.2rem;
+    margin-top:1rem;
+}
+
+.content6 .blk1 p span{
+    color:black;
+    font-weight: 500;
+}
+
+.content6 img{
+    width:100%;
+}
+
+.line{
+    margin-left:.5rem;
+    margin-top:5rem;
+}
+
+.footer{
+    margin-top:5rem;
+    margin-left: 1rem;
+}
+
+.footer .logo img{
+    width:5rem;
+}
+
+.footer .contact{
+    margin-top:3rem;
+}
+
+.footer .contact p{
+    color:#888888;
+    font-size: 1.2rem;;
+}
+
+.footer .contact input{
+    padding:.5rem;
+    margin-top:1rem;
+    border-radius: .5rem;
+    border:1px solid #888888;
+    font-size: 1.2rem;
+}
+
+.footer .contact button{
+    padding:.5rem;
+    font-size:1.2rem;
+    margin-top: 1rem;
+    background-color: #ffa500;
+    border: transparent;
+    color:#fff;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.footer .contact button:hover{
+    background-color:#d84528;
+    transition: .5s ease;
+}
+
+.quicklink{
+    margin-top:3rem;
+}
+
+.quicklink p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.quicklink ul{
+    margin-top:1.5rem;
+}
+
+.quicklink ul li{
+    font-size:1.2rem;
+    color:#888888;
+    cursor: pointer;
+}
+
+.quicklink ul li:hover{
+    color:#ffa500;
+}
+
+.legalstuff{
+    margin-top:3rem;
+}
+
+.legalstuff p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.legalstuff ul{
+    margin-top:1.5rem;
+}
+
+.legalstuff ul li{
+    font-size:1.2rem;
+    color:#888888;
+    cursor: pointer;
+}
+
+.legalstuff ul li:hover{
+    color:#ffa500;
+}
+
+footer{
+    text-align: center;
+    margin-top:1rem;
+    font-weight: 500;
+}
+
+@media only screen and (min-width:600px){
+
+    .header, .content1, .content2, .content3, .content4, .content5, .content6, .footer{
+        margin-left:3rem;
+        margin-right:3rem;
+    }
+
+    .header .signup{
+        right:3rem;
+    }
+}
+
+@media only screen and (min-width:770px){
+    .header .login{
+        position:absolute;
+        right:10rem;
+        display:block;
+    }
+    
+    .header .login button{
+        padding:.8rem;
+        font-size:1.2rem;
+        background-color: #ffa500;
+        border: transparent;
+        color:#fff;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+
+    .header .login button:hover{
+        background-color: #d84528;
+    }
+}
+
+@media only screen and (min-width:900px){
+    
+    .header, .content1, .content2, .content3, .content4, .content5, .content6, .footer{
+        margin-left:10rem;
+        margin-right:10rem;
+    }
+
+    .header .signup{
+        right:17rem;
+    }
+
+    .content1{
+        display:flex;
+        text-align:left;
+        margin-top:3rem;
+    }
+
+    .content1 .content{
+        width:40rem;
+        margin-top:5rem;
+    }
+
+    .content1 .img1{
+        margin-top:0;
+        text-align: left;
+    }
+    
+    .content1 .img1 img{
+        width:30rem;
+        width:100%;
+    }
+
+    .content2{
+        margin-top:10rem;
+        text-align: center;
+    }
+
+    .content2 h1{
+        width:50rem;
+        text-align: center;
+        margin-left:12rem;
+    }
+
+    .content2 .icons{
+        display: flex;
+    }
+
+    .content3{
+        display:flex;
+        gap:3rem;
+        margin-top:10rem;
+    }
+
+    .content3 .content{
+        margin-top:5rem;
+    }
+
+    .content3 .img2{
+        margin-top:0;
+        text-align: left;
+    }
+
+    .content3 .img2 img{
+        width:30rem;
+    }
+
+    .content4{
+        display:flex;
+        margin-top: 10rem;
+        gap:3rem;
+    }
+
+    .content4 .content{
+        margin-top:5rem;
+    }
+
+    .content4 .img3{
+        margin-top:0;
+        text-align: left;
+    }
+
+    .content4 .img3 img{
+        width:30rem;
+    }
+
+    .content5{
+        margin-top:15rem;
+    }
+
+    .content5 p{
+        width:40rem;
+        margin-left:17rem;
+    }
+
+    .content6{
+        margin-top:15rem;
+        margin-bottom:15rem;
+    }
+
+    .content6 .block{
+        display:flex;
+        gap:5rem;
+    }
+
+    .content6 .blk1 img{
+        width:20rem;
+    }
+
+    .line{
+        margin-left:8rem;
+        margin-right:8rem;
+    }
+
+    .footer{
+        display:flex;
+        gap:7rem;
+    }
+
+    .footer .contact, .quicklink, .legalstuff{
+        margin-top:0;
+    }
+
+
+}
+
+
+

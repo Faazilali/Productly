@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Productly</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login">
+        <div class="img">
+            <img src="img3.png">
+        </div>
+        <div class="content">
+            <h1>Login</h1>
+            <form id="loginForm" onsubmit="return false;">
+
+                <label  class="text" for="username">Username</label><br>
+                <input class="username" type="text" id="username" name="Username"><br><br>
+
+                <label class="text" for="password">Password</label><br>
+                <input class="password" type="password" id="password" name="Password"><br><br>
+
+                <input  class="checkbox" type="checkbox" id="remember">
+                <label  class="text2" for="remember">Remember Me</label><br><br>
+
+                <div id="errorMessage" style="display: none; color: red; margin-bottom: 10px;"></div>
+
+                <input class="button" type="submit" value="Log in now" id="loginButton" onclick="loginButtonClick()"><br><br> 
+
+                <p>Does not have an account?<a href="signup.html">Create Account</a></p>
+
+            </form>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>    
+</body>
+</html>
